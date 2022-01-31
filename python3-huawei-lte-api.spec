@@ -6,13 +6,13 @@
 
 Summary:	API For huawei LAN/WAN LTE Modems
 Name:		python3-huawei-lte-api
-Version:	1.5.2
+Version:	1.5.4
 Release:	1
 License:	LGPL v3
 Group:		Libraries/Python
 # if pypi:
 Source0:	https://github.com/Salamek/huawei-lte-api/archive/refs/tags/%{version}.tar.gz
-# Source0-md5:	a25de4b03b4b58efe7878f4352c38080
+# Source0-md5:	cea830d59b5b9f0846b3e333100c614d
 URL:		https://github.com/Salamek/huawei-lte-api
 BuildRequires:	python3-modules >= 1:3.2
 %if %{with tests}
